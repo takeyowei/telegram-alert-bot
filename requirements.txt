@@ -1,0 +1,7 @@
+# Live bot only — the engine, store, formatter and simulator run on the
+# Python standard library alone (sqlite3 / urllib), which is what makes
+# the whole core testable offline.
+python-telegram-bot[job-queue]>=21.0
+
+# Development / tests
+pytest>=8.0
